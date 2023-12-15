@@ -212,7 +212,7 @@ spec:
     spec:
       containers:
         - name: prometheus
-          image: quay.io/gauravkumar9130/prometheus
+          image: quay.io/pandeysp/prometheus
           args:
             - "--config.file=/etc/prometheus/prometheus.yml"
             - "--storage.tsdb.path=/prometheus/"
